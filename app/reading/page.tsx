@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Navbar from "../components/Navbar";
+import Navbar from "@/app/components/Navbar";
 
 export default function ReadingPage() {
   const readingLevels = [
