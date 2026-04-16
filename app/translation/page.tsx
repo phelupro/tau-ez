@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/app/components/Navbar";
+
 
 
 export default function TranslationPractice() {
@@ -15,7 +15,7 @@ export default function TranslationPractice() {
 
   return (
     <div className="min-h-screen bg-[#f8f9fa] pb-20">
-      <Navbar />
+  
 
       <main className="max-w-5xl mx-auto px-6 pt-10">
         {/* Tiêu đề chính */}

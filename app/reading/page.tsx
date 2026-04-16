@@ -1,22 +1,32 @@
 "use client";
 import Link from "next/link";
-import Navbar from "@/app/components/Navbar";
 
 export default function ReadingPage() {
   const readingLevels = [
-    { id: 1, title: "HSK 1", type: "CƠ BẢN", color: "bg-emerald-500", icon: "📱", desc: "Đọc hiểu các câu đơn giản và đoạn văn ngắn về cuộc sống hằng ngày.", lessons: 15, completed: 12, tags: ["Đọc câu đơn", "Từ vựng cơ bản", "Thông tin cá nhân"] },
-    { id: 2, title: "HSK 2", type: "CƠ BẢN", color: "bg-teal-500", icon: "📖", desc: "Đọc hiểu các đoạn văn ngắn về gia đình, bạn bè và hoạt động thường ngày.", lessons: 13, completed: 8, tags: ["Đọc đoạn văn", "Thời gian địa điểm", "Hoạt động hàng ngày"] },
-    { id: 3, title: "HSK 3", type: "TRUNG BÌNH", color: "bg-blue-500", icon: "🎓", desc: "Đọc hiểu các bài văn về công việc, học tập và các chủ đề xã hội cơ bản.", lessons: 35, completed: 15, tags: ["Bài văn dài", "Ngữ pháp phức tạp", "Chủ đề xã hội"] },
-    { id: 4, title: "HSK 4", type: "TRUNG BÌNH", color: "bg-sky-500", icon: "💡", desc: "Đọc hiểu các bài báo, thông tin đa dạng và nắm bắt được ý chính nhanh chóng.", lessons: 40, completed: 0, tags: ["Nghị luận", "Tin tức", "Logic đoạn văn"] },
-    { id: 5, title: "HSK 5", type: "NÂNG CAO", color: "bg-rose-500", icon: "👑", desc: "Đọc hiểu các tác phẩm văn học, bài phê bình và các văn bản chuyên ngành.", lessons: 50, completed: 0, tags: ["Văn học", "Ẩn dụ", "Từ vựng chuyên sâu"] },
-    { id: 6, title: "HSK 6", type: "CHUYÊN GIA", color: "bg-indigo-600", icon: "🏆", desc: "Thành thạo đọc hiểu mọi loại văn bản, hiểu rõ các sắc thái biểu đạt tinh tế.", lessons: 60, completed: 0, tags: ["Bác học", "Thành ngữ", "Phân tích phê bình"] },
+    { 
+      id: 1, 
+      title: "HSK 1", 
+      type: "CƠ BẢN", 
+      color: "bg-emerald-500", 
+      icon: "📱", 
+      desc: "Đọc hiểu các câu đơn giản và đoạn văn ngắn về cuộc sống hằng ngày.", 
+      lessons: 15, 
+      completed: 0, 
+      tags: ["Đọc câu đơn", "Từ vựng cơ bản", "Thông tin cá nhân"],
+      path: "/reading/hsk1" // Đường dẫn dẫn tới danh sách bài đọc
+    },
+    { id: 2, title: "HSK 2", type: "CƠ BẢN", color: "bg-teal-500", icon: "📖", desc: "Đọc hiểu các đoạn văn ngắn về gia đình, bạn bè và hoạt động thường ngày.", lessons: 13, completed: 0, tags: ["Đọc đoạn văn", "Thời gian địa điểm", "Hoạt động hàng ngày"], path: "/reading/hsk2" },
+    { id: 3, title: "HSK 3", type: "TRUNG BÌNH", color: "bg-blue-500", icon: "🎓", desc: "Đọc hiểu các bài văn về công việc, học tập và các chủ đề xã hội cơ bản.", lessons: 35, completed: 0, tags: ["Bài văn dài", "Ngữ pháp phức tạp", "Chủ đề xã hội"], path: "/reading/hsk3" },
+    { id: 4, title: "HSK 4", type: "TRUNG BÌNH", color: "bg-sky-500", icon: "💡", desc: "Đọc hiểu các bài báo, thông tin đa dạng và nắm bắt được ý chính nhanh chóng.", lessons: 40, completed: 0, tags: ["Nghị luận", "Tin tức", "Logic đoạn văn"], path: "/reading/hsk4" },
+    { id: 5, title: "HSK 5", type: "NÂNG CAO", color: "bg-rose-500", icon: "👑", desc: "Đọc hiểu các tác phẩm văn học, bài phê bình và các văn bản chuyên ngành.", lessons: 50, completed: 0, tags: ["Văn học", "Ẩn dụ", "Từ vựng chuyên sâu"], path: "/reading/hsk5" },
+    { id: 6, title: "HSK 6", type: "CHUYÊN GIA", color: "bg-indigo-600", icon: "🏆", desc: "Thành thạo đọc hiểu mọi loại văn bản, hiểu rõ các sắc thái biểu đạt tinh tế.", lessons: 60, completed: 0, tags: ["Bác học", "Thành ngữ", "Phân tích phê bình"], path: "/reading/hsk6" },
   ];
 
   return (
     <div className="min-h-screen bg-[#f1f5f9]">
-      <Navbar />
       
-      {/* Top Banner - Dark Greenish Theme as per image */}
+      
+      {/* Top Banner */}
       <div className="bg-[#3d5a40] py-12 px-6 text-white">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-4">
@@ -26,7 +36,7 @@ export default function ReadingPage() {
               <p className="text-sm opacity-80">69 bài đọc - HSK 1-6 - Luyện kỹ năng đọc hiểu</p>
             </div>
           </div>
-          <div className="flex gap-10 text-center">
+          <div className="hidden md:flex gap-10 text-center">
             <div>
               <div className="text-3xl font-black text-orange-400">69</div>
               <div className="text-[10px] uppercase font-bold opacity-70">Bài đọc</div>
@@ -44,7 +54,7 @@ export default function ReadingPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {readingLevels.map((lvl) => (
             <div key={lvl.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all group border border-gray-100 flex flex-col">
-              {/* Card Header with Level Color */}
+              {/* Card Header */}
               <div className={`${lvl.color} p-5 text-white flex justify-between items-start`}>
                 <div>
                   <h2 className="text-2xl font-black leading-none">{lvl.title}</h2>
@@ -64,7 +74,7 @@ export default function ReadingPage() {
                   <span className="flex items-center gap-1 text-emerald-600">✅ {lvl.completed} xong</span>
                 </div>
 
-                <div className="flex flex-wrap gap-2 mb-8">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {lvl.tags.map(tag => (
                     <span key={tag} className="px-3 py-1 bg-gray-50 border border-gray-100 text-[9px] font-bold text-gray-500 rounded-lg group-hover:bg-white transition-colors">
                       {tag}
@@ -73,12 +83,14 @@ export default function ReadingPage() {
                 </div>
               </div>
 
-              {/* Action Button */}
-              <div className="px-6 pb-6">
-                <button className="w-full py-3 bg-gray-50 text-gray-700 rounded-xl text-xs font-bold hover:bg-[#ff5722] hover:text-white transition-all flex items-center justify-center gap-2">
-                  {lvl.completed > 0 ? "Tiếp tục" : "Bắt đầu học"} 
-                  <span className="text-lg">→</span>
-                </button>
+              {/* Action Button - ĐÃ FIX LINK TẠI ĐÂY */}
+              <div className="px-6 pb-6 mt-auto">
+                <Link href={lvl.path}>
+                  <button className="w-full py-3 bg-gray-100 text-gray-700 rounded-xl text-xs font-bold hover:bg-[#ff5722] hover:text-white transition-all flex items-center justify-center gap-2 group/btn shadow-sm active:scale-95">
+                    {lvl.completed > 0 ? "Tiếp tục" : "Bắt đầu học"} 
+                    <span className="text-lg group-hover/btn:translate-x-1 transition-transform">→</span>
+                  </button>
+                </Link>
               </div>
             </div>
           ))}

@@ -7,14 +7,11 @@ const learningModules = [
   { icon: "📙", title: "Từ vựng chủ đề", desc: "Hệ thống từ vựng phân loại theo chủ đề.", count: "80 bài", href: "/vocabulary" },
   { icon: "💬", title: "Hội thoại", desc: "Luyện tập hội thoại thực tế hàng ngày.", count: "120 bài", href: "/conversation" },
   { icon: "📑", title: "Đọc hiểu", desc: "Nâng cao khả năng đọc hiểu từ cơ bản đến nâng cao.", count: "90 bài", href: "/reading" },
-  { icon: "📝", title: "Luyện thi", desc: "Đề thi thử HSK với hệ thống chấm điểm.", count: "60 bài", href: "/practice/exam" },
   { icon: "✍️", title: "Bộ thủ", desc: "Học 214 bộ thủ để viết chữ Hán chuẩn.", count: "30 bài", href: "/radicals" },
   { icon: "🌐", title: "Dịch AI", desc: "Công cụ dịch thông minh tích hợp từ điển.", count: "AI", href: "/translate" },
   { icon: "🗣️", title: "Mẫu câu", desc: "Học mẫu câu tiếng trung qua các chủ đề.", count: "70 bài", href: "/sentence-patterns" },
-  { icon: "🖋️", title: "Luyện viết", desc: "Luyện viết chữ Hán chuẩn nét, có hướng dẫn.", count: "50 bài", href: "/writing" },
-  { icon: "🔢", title: "Lượng từ", desc: "Học các loại lượng từ phổ biến.", count: "45 bài", href: "/measure-words" },
-  { icon: "🏫", title: "Luyện đề THPT", desc: "Luyện đề thi thử THPT có giải thích.", count: "10 bài", href: "/exam-thpt" },
 ];
+
 
 export default function Home() {
   // --- CHỖ NÀY ĐỂ CHECK LOG TRÊN VERCEL ---
@@ -51,9 +48,7 @@ export default function Home() {
             <Link href="/hsk" className="px-10 py-4 bg-[#ff5722] text-white rounded-2xl text-lg font-bold hover:bg-orange-600 shadow-xl shadow-orange-100 transition-all active:scale-95">
               🚀 Bắt đầu ngay
             </Link>
-            <Link href="/courses" className="px-10 py-4 bg-white text-gray-900 border-2 border-gray-100 rounded-2xl text-lg font-bold hover:bg-orange-50 transition-all">
-              Khám phá
-            </Link>
+    
           </div>
         </div>
 

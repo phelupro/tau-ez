@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     }
 
     const genAI = new GoogleGenerativeAI(API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite-001" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     const prompt = isChineseToViet 
       ? `Dịch câu này sang tiếng Việt, nếu là thành ngữ hãy tìm câu tương đương: "${text}"`

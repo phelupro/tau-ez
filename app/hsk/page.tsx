@@ -44,9 +44,9 @@ export default function HskPage() {
                   <span>📚 {item.lessons}</span>
                   <span>⏱️ {item.time}</span>
                 </div>
-                <button className="w-full py-3 rounded-xl border border-gray-200 font-bold text-gray-700 hover:bg-gray-50 transition">
+                <Link href="/hsk/hsk1" className="w-full py-3 rounded-xl border border-gray-200 font-bold text-gray-700 hover:bg-gray-50 transition">
                   Vào học
-                </button>
+                </Link>
               </div>
             </div>
           ))}

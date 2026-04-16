@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Navbar from "../../components/Navbar";
+
 
 export default function TopicVocabPage() {
   // Danh sách các chủ đề mẫu dựa trên ảnh mày gửi
@@ -18,7 +18,7 @@ export default function TopicVocabPage() {
 
   return (
     <div className="min-h-screen bg-[#f3f4f6] pb-20">
-      <Navbar />
+    
       
       {/* Banner Tiêu đề */}
       <div className="bg-[#1e3a8a] py-12 text-center text-white px-4">

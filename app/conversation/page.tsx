@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Navbar from "@/app/components/Navbar";
 
 export default function ConversationPage() {
   const levels = [
@@ -14,7 +13,7 @@ export default function ConversationPage() {
 
   return (
     <div className="min-h-screen bg-[#f8fafc] pb-20">
-      <Navbar />
+  
       
       {/* Header Section */}
       <div className="max-w-7xl mx-auto px-6 pt-10">

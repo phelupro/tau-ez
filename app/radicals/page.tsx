@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/app/components/Navbar";
+
 
 export default function RadicalsPage() {
   const [selectedRadical, setSelectedRadical] = useState<null | {
@@ -2136,7 +2136,7 @@ export default function RadicalsPage() {
 
   return (
     <div className="min-h-screen bg-[#fcfcfc] pb-20">
-      <Navbar />
+      
       {/* Header */}
       <div className="bg-gradient-to-r from-[#b91c1c] to-[#7f1d1d] py-16 px-6 text-white text-center shadow-lg">
         <h1 className="text-4xl font-black mb-3 tracking-tighter">214 BỘ THỦ TIẾNG TRUNG</h1>

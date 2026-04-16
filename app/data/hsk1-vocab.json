@@ -1,0 +1,632 @@
+[
+  {
+    "word": "爱",
+    "pinyin": "ài",
+    "meaning": "yêu, thích",
+    "example": "我爱爸爸妈妈。(Tôi yêu bố mẹ.)"
+  },
+  {
+    "word": "八",
+    "pinyin": "bā",
+    "meaning": "số tám",
+    "example": "我有八个杯子。(Tôi có 8 cái cốc.)"
+  },
+  {
+    "word": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "bố, ba",
+    "example": "我爸爸是医生。(Bố tôi là bác sĩ.)"
+  },
+  {
+    "word": "杯子",
+    "pinyin": "bēizi",
+    "meaning": "cái cốc, cái ly",
+    "example": "桌子上有杯子。(Trên bàn có cái cốc.)"
+  },
+  {
+    "word": "北京",
+    "pinyin": "Běijīng",
+    "meaning": "Bắc Kinh",
+    "example": "我想去北京。(Tôi muốn đi Bắc Kinh.)"
+  },
+  {
+    "word": "本",
+    "pinyin": "běn",
+    "meaning": "cuốn, quyển (lượng từ)",
+    "example": "我买了一本书。(Tôi đã mua một quyển sách.)"
+  },
+  {
+    "word": "不客气",
+    "pinyin": "bú kèqi",
+    "meaning": "đừng khách sáo, không có gì",
+    "example": "A: 谢谢！ B: 不客气。(A: Cảm ơn! B: Không có gì.)"
+  },
+  {
+    "word": "不",
+    "pinyin": "bù",
+    "meaning": "không (phó từ phủ định)",
+    "example": "我不去学校。(Tôi không đến trường.)"
+  },
+  {
+    "word": "菜",
+    "pinyin": "cài",
+    "meaning": "rau, món ăn",
+    "example": "这个菜很好吃。(Món ăn này rất ngon.)"
+  },
+  {
+    "word": "茶",
+    "pinyin": "chá",
+    "meaning": "trà, chè",
+    "example": "我想喝热茶。(Tôi muốn uống trà nóng.)"
+  },
+  {
+    "word": "我",
+    "pinyin": "wǒ",
+    "meaning": "Tôi, ta, mình",
+    "example": "我是老师 (Wǒ shì lǎoshī) - Tôi là giáo viên."
+  },
+  {
+    "word": "你",
+    "pinyin": "nǐ",
+    "meaning": "Bạn, anh, chị (ngôi thứ 2)",
+    "example": "你好 (Nǐ hǎo) - Chào bạn."
+  },
+  {
+    "word": "他",
+    "pinyin": "tā",
+    "meaning": "Anh ấy, ông ấy",
+    "example": "他是我的同学 (Tā shì wǒ de tóngxué) - Anh ấy là bạn học của tôi."
+  },
+  {
+    "word": "她",
+    "pinyin": "tā",
+    "meaning": "Cô ấy, bà ấy",
+    "example": "她很漂亮 (Tā hěn piàoliang) - Cô ấy rất xinh đẹp."
+  },
+  {
+    "word": "爱",
+    "pinyin": "ài",
+    "meaning": "Yêu, thích",
+    "example": "我爱爸爸妈妈 (Wǒ ài bàba māma) - Con yêu bố mẹ."
+  },
+  {
+    "word": "喝",
+    "pinyin": "hē",
+    "meaning": "Uống",
+    "example": "我想喝水 (Wǒ xiǎng hē shuǐ) - Tôi muốn uống nước."
+  },
+  {
+    "word": "吃",
+    "pinyin": "chī",
+    "meaning": "Ăn",
+    "example": "去吃饭吧 (Qù chīfàn ba) - Đi ăn cơm thôi."
+  },
+  {
+    "word": "听",
+    "pinyin": "tīng",
+    "meaning": "Nghe",
+    "example": "听音乐 (Tīng yīnyuè) - Nghe nhạc."
+  },
+  {
+    "word": "说",
+    "pinyin": "shuō",
+    "meaning": "Nói",
+    "example": "你会说汉语吗？(Nǐ huì shuō Hànyǔ ma?) - Bạn biết nói tiếng Trung không?"
+  },
+  {
+    "word": "读",
+    "pinyin": "dú",
+    "meaning": "Đọc",
+    "example": "读书 (Dúshū) - Đọc sách."
+  },
+  {
+    "word": "写",
+    "pinyin": "xiě",
+    "meaning": "Viết",
+    "example": "写汉字 (Xiě Hànzì) - Viết chữ Hán."
+  },
+  {
+    "word": "看",
+    "pinyin": "kàn",
+    "meaning": "Nhìn, xem, đọc (thầm)",
+    "example": "看电影 (Kàn diànyǐng) - Xem phim."
+  },
+  {
+    "word": "开",
+    "pinyin": "kāi",
+    "meaning": "Mở, lái (xe)",
+    "example": "开门 (Kāimén) - Mở cửa."
+  },
+  {
+    "word": "坐",
+    "pinyin": "zuò",
+    "meaning": "Ngồi",
+    "example": "请坐 (Qǐng zuò) - Mời ngồi."
+  },
+  {
+    "word": "叫",
+    "pinyin": "jiào",
+    "meaning": "Tên là, gọi là",
+    "example": "你叫什么名字？(Nǐ jiào shénme míngzi?) - Bạn tên là gì?"
+  },
+  {
+    "word": "钱",
+    "pinyin": "qián",
+    "meaning": "Tiền",
+    "example": "这个多少钱？(Zhège duōshǎo qián?) - Cái này bao nhiêu tiền?"
+  },
+  {
+    "word": "水",
+    "pinyin": "shuǐ",
+    "meaning": "Nước",
+    "example": "喝水 (Hē shuǐ) - Uống nước."
+  },
+  {
+    "word": "茶",
+    "pinyin": "chá",
+    "meaning": "Trà, chè",
+    "example": "请喝茶 (Qǐng hē chá) - Mời uống trà."
+  },
+  {
+    "word": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning": "Cơm",
+    "example": "我不吃米饭 (Wǒ bù chī mǐfàn) - Tôi không ăn cơm."
+  },
+  {
+    "word": "衣服",
+    "pinyin": "yīfu",
+    "meaning": "Quần áo",
+    "example": "这件衣服太漂亮了 (Zhè jiàn yīfu tài piàoliang le) - Bộ quần áo này đẹp quá."
+  },
+  {
+    "word": "书",
+    "pinyin": "shū",
+    "meaning": "Sách",
+    "example": "我看书 (Wǒ kàn shū) - Tôi đọc sách."
+  },
+  {
+    "word": "杯子",
+    "pinyin": "bēizi",
+    "meaning": "Cái cốc, cái ly",
+    "example": "杯子里有水 (Bēizi lǐ yǒu shuǐ) - Trong cốc có nước."
+  },
+  {
+    "word": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning": "Cái bàn",
+    "example": "桌子上有书 (Zhuōzi shàng yǒu shū) - Trên bàn có sách."
+  },
+  {
+    "word": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "Cái ghế",
+    "example": "坐椅子 (Zuò yǐzi) - Ngồi ghế."
+  },
+  {
+    "word": "猫",
+    "pinyin": "māo",
+    "meaning": "Con mèo",
+    "example": "我爱我的小猫 (Wǒ ài wǒ de xiǎo māo) - Tôi yêu con mèo nhỏ của tôi."
+  },
+  {
+    "word": "狗",
+    "pinyin": "gǒu",
+    "meaning": "Con chó",
+    "example": "这只狗很大 (Zhè zhī gǒu hěn dà) - Con chó này rất lớn."
+  },
+  {
+    "word": "人",
+    "pinyin": "rén",
+    "meaning": "Người",
+    "example": "他是好人 (Tā shì hǎorén) - Anh ấy là người tốt."
+  },
+  {
+    "word": "名字",
+    "pinyin": "míngzi",
+    "meaning": "Tên",
+    "example": "我叫什么名字？(Wǒ jiào shénme míngzi?) - Tôi tên là gì?"
+  },
+  {
+    "word": "老师",
+    "pinyin": "lǎoshī",
+    "meaning": "Giáo viên",
+    "example": "老师好 (Lǎoshī hǎo) - Chào thầy/cô."
+  },
+  {
+    "word": "学生",
+    "pinyin": "xuésheng",
+    "meaning": "Học sinh, sinh viên",
+    "example": "我是学生 (Wǒ shì xuésheng) - Tôi là học sinh."
+  },
+  {
+    "word": "医生",
+    "pinyin": "yīshēng",
+    "meaning": "Bác sĩ",
+    "example": "去医院看医生 (Qù yīyuàn kàn yīshēng) - Đi bệnh viện khám bác sĩ."
+  },
+  {
+    "word": "朋友",
+    "pinyin": "péngyou",
+    "meaning": "Bạn bè",
+    "example": "他是我的好朋友 (Tā shì wǒ de hǎo péngyou) - Anh ấy là bạn thân của tôi."
+  },
+  {
+    "word": "学校",
+    "pinyin": "xuéxiào",
+    "meaning": "Trường học",
+    "example": "去学校 (Qù xuéxiào) - Đi đến trường."
+  },
+  {
+    "word": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning": "Cửa hàng",
+    "example": "去商店买衣服 (Qù shāngdiàn mǎi yīfu) - Đi cửa hàng mua quần áo."
+  },
+  {
+    "word": "医院",
+    "pinyin": "yīyuàn",
+    "meaning": "Bệnh viện",
+    "example": "医院在前面 (Yīyuàn zài qiánmiàn) - Bệnh viện ở phía trước."
+  },
+  {
+    "word": "这",
+    "pinyin": "zhè",
+    "meaning": "Đây, này",
+    "example": "这是什么？(Zhè shì shénme?) - Đây là cái gì?"
+  },
+  {
+    "word": "那",
+    "pinyin": "nà",
+    "meaning": "Kia, đó",
+    "example": "那是谁？(Nà shì shuí?) - Kia là ai?"
+  },
+  {
+    "word": "哪",
+    "pinyin": "nǎ",
+    "meaning": "Nào, đâu",
+    "example": "你是哪国人？(Nǐ shì nǎ guó rén?) - Bạn là người nước nào?"
+  },
+  {
+    "word": "不",
+    "pinyin": "bù",
+    "meaning": "Không (phủ định)",
+    "example": "我不去学校 (Wǒ bù qù xuéxiào) - Tôi không đi học."
+  },
+  {
+    "word": "没",
+    "pinyin": "méi",
+    "meaning": "Không, chưa (thường đi với 有)",
+    "example": "我没有钱 (Wǒ méiyǒu qián) - Tôi không có tiền."
+  },
+  {
+    "word": "有",
+    "pinyin": "yǒu",
+    "meaning": "Có",
+    "example": "我有汉字书 (Wǒ yǒu Hànzì shū) - Tôi có sách chữ Hán."
+  },
+  {
+    "word": "多",
+    "pinyin": "duō",
+    "meaning": "Nhiều",
+    "example": "这里有很多人 (Zhèlǐ yǒu hěnduō rén) - Ở đây có rất nhiều người."
+  },
+  {
+    "word": "少",
+    "pinyin": "shǎo",
+    "meaning": "Ít",
+    "example": "钱太少了 (Qián tài shǎo le) - Tiền ít quá."
+  },
+  {
+    "word": "大",
+    "pinyin": "dà",
+    "meaning": "Lớn, to",
+    "example": "这个苹果很大 (Zhège píngguǒ hěn dà) - Quả táo này rất to."
+  },
+  {
+    "word": "小",
+    "pinyin": "xiǎo",
+    "meaning": "Nhỏ, bé",
+    "example": "小猫很可爱 (Xiǎo māo hěn kě'ài) - Con mèo nhỏ rất đáng yêu."
+  },
+  {
+    "word": "好",
+    "pinyin": "hǎo",
+    "meaning": "Tốt, hay, xong",
+    "example": "天气很好 (Tiānqì hěn hǎo) - Thời tiết rất tốt."
+  },
+  {
+    "word": "一",
+    "pinyin": "yī",
+    "meaning": "Số 1",
+    "example": "一个苹果 (Yī gè píngguǒ) - Một quả táo."
+  },
+  {
+    "word": "二",
+    "pinyin": "èr",
+    "meaning": "Số 2",
+    "example": "二月 (Èr yuè) - Tháng 2."
+  },
+  {
+    "word": "三",
+    "pinyin": "sān",
+    "meaning": "Số 3",
+    "example": "三个人 (Sān gè rén) - Ba người."
+  },
+  {
+    "word": "十",
+    "pinyin": "shí",
+    "meaning": "Số 10",
+    "example": "十块钱 (Shí kuài qián) - Mười đồng."
+  },
+  {
+    "word": "天",
+    "pinyin": "tiān",
+    "meaning": "Ngày, trời",
+    "example": "今天 (Jīntiān) - Hôm nay."
+  },
+  {
+    "word": "月",
+    "pinyin": "yuè",
+    "meaning": "Tháng, mặt trăng",
+    "example": "九月 (Jiǔ yuè) - Tháng 9."
+  },
+  {
+    "word": "年",
+    "pinyin": "nián",
+    "meaning": "Năm",
+    "example": "今年是2026年 (Jīnnián shì èr líng èr liù nián) - Năm nay là năm 2026."
+  },
+  {
+    "word": "岁",
+    "pinyin": "suì",
+    "meaning": "Tuổi",
+    "example": "你几岁了？(Nǐ jǐ suì le?) - Bạn mấy tuổi rồi?"
+  },
+  {
+    "word": "点",
+    "pinyin": "diǎn",
+    "meaning": "Giờ, chút, điểm",
+    "example": "现在几点了？(Xiànzài jǐ diǎn le?) - Bây giờ là mấy giờ rồi?"
+  },
+  {
+    "word": "北京",
+    "pinyin": "Běijīng",
+    "meaning": "Bắc Kinh",
+    "example": "我去北京 (Wǒ qù Běijīng) - Tôi đi Bắc Kinh."
+  },
+  {
+    "word": "家",
+    "pinyin": "jiā",
+    "meaning": "Nhà, gia đình",
+    "example": "我回家了 (Wǒ huí jiā le) - Tôi về nhà rồi."
+  },
+  {
+    "word": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "Bố, ba",
+    "example": "我爸爸是医生 (Wǒ bàba shì yīshēng) - Bố tôi là bác sĩ."
+  },
+  {
+    "word": "妈妈",
+    "pinyin": "māma",
+    "meaning": "Mẹ",
+    "example": "妈妈，我爱你 (Māma, wǒ ài nǐ) - Mẹ ơi, con yêu mẹ."
+  },
+  {
+    "word": "儿子",
+    "pinyin": "érzi",
+    "meaning": "Con trai",
+    "example": "他是我儿子 (Tā shì wǒ érzi) - Nó là con trai tôi."
+  },
+  {
+    "word": "女儿",
+    "pinyin": "nǚ'ér",
+    "meaning": "Con gái",
+    "example": "我女儿六岁了 (Wǒ nǚ'ér liù suì le) - Con gái tôi 6 tuổi rồi."
+  },
+  {
+    "word": "先生",
+    "pinyin": "xiānsheng",
+    "meaning": "Ông, ngài, chồng",
+    "example": "王先生 (Wáng xiānsheng) - Ông Vương."
+  },
+  {
+    "word": "小姐",
+    "pinyin": "xiǎojiě",
+    "meaning": "Cô, tiểu thư",
+    "example": "李小姐 (Lǐ xiǎojiě) - Cô Lý."
+  },
+  {
+    "word": "衣服",
+    "pinyin": "yīfu",
+    "meaning": "Quần áo",
+    "example": "买衣服 (Mǎi yīfu) - Mua quần áo."
+  },
+  {
+    "word": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning": "Hoa quả, trái cây",
+    "example": "我想吃水果 (Wǒ xiǎng chī shuǐguǒ) - Tôi muốn ăn hoa quả."
+  },
+  {
+    "word": "苹果",
+    "pinyin": "píngguǒ",
+    "meaning": "Quả táo",
+    "example": "一个红苹果 (Yī gè hóng píngguǒ) - Một quả táo đỏ."
+  },
+  {
+    "word": "电影",
+    "pinyin": "diànyǐng",
+    "meaning": "Phim, điện ảnh",
+    "example": "看电影 (Kàn diànyǐng) - Xem phim."
+  },
+  {
+    "word": "电视",
+    "pinyin": "diànshì",
+    "meaning": "Tivi",
+    "example": "看电视 (Kàn diànshì) - Xem tivi."
+  },
+  {
+    "word": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning": "Máy tính",
+    "example": "我的电脑 (Wǒ de diànnǎo) - Máy tính của tôi."
+  },
+  {
+    "word": "天气",
+    "pinyin": "tiānqì",
+    "meaning": "Thời tiết",
+    "example": "今天天气很好 (Jīntiān tiānqì hěn hǎo) - Thời tiết hôm nay rất tốt."
+  },
+  {
+    "word": "下雨",
+    "pinyin": "xià yǔ",
+    "meaning": "Mưa",
+    "example": "昨天没下雨 (Zuótiān méi xià yǔ) - Hôm qua không mưa."
+  },
+  {
+    "word": "冷",
+    "pinyin": "lěng",
+    "meaning": "Lạnh",
+    "example": "今天很冷 (Jīntiān hěn lěng) - Hôm nay rất lạnh."
+  },
+  {
+    "word": "热",
+    "pinyin": "rè",
+    "meaning": "Nóng",
+    "example": "我不喜欢热 (Wǒ bù xǐhuān rè) - Tôi không thích nóng."
+  },
+  {
+    "word": "请",
+    "pinyin": "qǐng",
+    "meaning": "Mời, xin",
+    "example": "请进 (Qǐng jìn) - Mời vào."
+  },
+  {
+    "word": "去",
+    "pinyin": "qù",
+    "meaning": "Đi",
+    "example": "去商店 (Qù shāngdiàn) - Đi cửa hàng."
+  },
+  {
+    "word": "来",
+    "pinyin": "lái",
+    "meaning": "Đến, tới",
+    "example": "请来这里 (Qǐng lái zhèlǐ) - Mời đến đây."
+  },
+  {
+    "word": "回",
+    "pinyin": "huí",
+    "meaning": "Về",
+    "example": "回家 (Huí jiā) - Về nhà."
+  },
+  {
+    "word": "在",
+    "pinyin": "zài",
+    "meaning": "Ở, đang",
+    "example": "他在学校 (Tā zài xuéxiào) - Anh ấy ở trường."
+  },
+  {
+    "word": "想",
+    "pinyin": "xiǎng",
+    "meaning": "Muốn, nhớ, nghĩ",
+    "example": "我想你 (Wǒ xiǎng nǐ) - Tôi nhớ bạn."
+  },
+  {
+    "word": "会",
+    "pinyin": "huì",
+    "meaning": "Biết (qua học tập)",
+    "example": "我会写汉字 (Wǒ huì xiě Hànzì) - Tôi biết viết chữ Hán."
+  },
+  {
+    "word": "能",
+    "pinyin": "néng",
+    "meaning": "Có thể",
+    "example": "你能来吗？(Nǐ néng lái ma?) - Bạn có thể đến không?"
+  },
+  {
+    "word": "怎么",
+    "pinyin": "zěnme",
+    "meaning": "Thế nào, làm sao",
+    "example": "你怎么了？(Nǐ zěnme le?) - Bạn làm sao thế?"
+  },
+  {
+    "word": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "meaning": "Như thế nào",
+    "example": "太好了，你觉得怎么样？(Tài hǎo le, nǐ juéde zěnmeyàng?) - Tuyệt quá, bạn thấy thế nào?"
+  },
+  {
+    "word": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning": "Cái bàn",
+    "example": "在桌子上 (Zài zhuōzi shàng) - Ở trên bàn."
+  },
+  {
+    "word": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "Cái ghế",
+    "example": "我有三把椅子 (Wǒ yǒu sān bǎ yǐzi) - Tôi có 3 cái ghế."
+  },
+  {
+    "word": "谁",
+    "pinyin": "shuí",
+    "meaning": "Ai",
+    "example": "他是谁？(Tā shì shuí?) - Anh ấy là ai?"
+  },
+  {
+    "word": "什么",
+    "pinyin": "shénme",
+    "meaning": "Cái gì",
+    "example": "这是什么？(Zhè shì shénme?) - Đây là cái gì?"
+  },
+  {
+    "word": "多少",
+    "pinyin": "duōshǎo",
+    "meaning": "Bao nhiêu",
+    "example": "多少钱？(Duōshǎo qián?) - Bao nhiêu tiền?"
+  },
+  {
+    "word": "几",
+    "pinyin": "jǐ",
+    "meaning": "Mấy (thường < 10)",
+    "example": "你有几个苹果？(Nǐ yǒu jǐ gè píngguǒ?) - Bạn có mấy quả táo?"
+  },
+  {
+    "word": "很",
+    "pinyin": "hěn",
+    "meaning": "Rất",
+    "example": "我很好 (Wǒ hěn hǎo) - Tôi rất khỏe."
+  },
+  {
+    "word": "太",
+    "pinyin": "tài",
+    "meaning": "Quá, lắm",
+    "example": "太漂亮了 (Tài piàoliang le) - Đẹp quá."
+  },
+  {
+    "word": "都",
+    "pinyin": "dōu",
+    "meaning": "Đều",
+    "example": "我们都是老师 (Wǒmen dōu shì lǎoshī) - Chúng tôi đều là giáo viên."
+  },
+  {
+    "word": "再见",
+    "pinyin": "zàijiàn",
+    "meaning": "Tạm biệt",
+    "example": "老师，再见！(Lǎoshī, zàijiàn!) - Chào thầy, tạm biệt thầy!"
+  },
+  {
+    "word": "谢谢",
+    "pinyin": "xièxie",
+    "meaning": "Cảm ơn",
+    "example": "谢谢你 (Xièxie nǐ) - Cảm ơn bạn."
+  },
+  {
+    "word": "对不起",
+    "pinyin": "duìbuqǐ",
+    "meaning": "Xin lỗi",
+    "example": "对不起，我没钱 (Duìbuqǐ, wǒ méi qián) - Xin lỗi, tôi không có tiền."
+  }
+]
